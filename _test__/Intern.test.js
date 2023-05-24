@@ -1,13 +1,17 @@
 const Intern = require("../lib/intern");
 
-test("Testing School" ,() =>{
-    const testSchool = "University of Toronto";
-    const intern = new Intern("Bob", 1, "<EMAIL>", testSchool);
-    expect(intern.school).toBe(testSchool);
+describe("Intern", () => {
+    const intern =new Intern ('mike', 3, 'mike1@gmail.com', 'mike1');
+        expect(intern.getName()).toEqual('mike');
+});
+describe("getSchool", () => {
+    const intern =new Intern ('mike', 3,'mike1@gmail.com','GSU');
+    expect(intern.getSchool()).toEqual('GSU');
     });
-    test("Testing Role", () => {
-        const intern = new Intern("Bob", 1, "<EMAIL>", "University of Toronto");
-        expect(intern.getRole()).toBe("Intern");
+    describe("getRole", () => {
+        const intern =new Intern ('mike', 3,'mike1@gmail.com','GSU');
+        expect(intern.getRole()).toEqual('Intern');
         });
-        
+
+
 

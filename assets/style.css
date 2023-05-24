@@ -1,0 +1,82 @@
+/* Global styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .card-title.bg-info {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .list-group-item .material-icons {
+    margin-right: 5px;
+  }
+  
+  .list-group-item.text-dark {
+    color: #343a40;
+  }
+  
+  .list-group-item a {
+    color: #343a40;
+    text-decoration: none;
+  }
+  
+  .list-group-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Engineer profile */
+  
+  .engineer-profile .card-header {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  /* Intern profile */
+  
+  .intern-profile .card-header {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  /* Manager profile */
+  
+  .manager-profile .card-header {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
